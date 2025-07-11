@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+body {
+  background: url(anime-moon-landscape.jpg);
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  position: relative;
+  height: 100vh;
+}
+
+form h1 {
+  color: #fff;
+}
+
+.container,
+input,
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#email-form,
+#password-form {
+  background-color: transparent;
+  border-top: none;
+  border-bottom: 2px solid #fff;
+  margin: 1rem;
+  padding: 1rem;
+  padding-right: 5rem;
+  outline: none;
+  border-left: none;
+  border-right: none;
+  color: #fff;
+}
+#email-form:focus,
+#password-form:focus {
+  border-bottom-color: #ffffffaa;
+}
+input::placeholder {
+  color: #fff;
+}
+
+label {
+  color: #fff;
+}
+form {
+  background-color: transparent;
+  padding: 3rem;
+  padding-bottom: 50px;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  border: 1px solid #ffffff44;
+  position: relative;
+}
+
+.remember-me-section {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: start;
+}
+.remember-me-section label,
+input {
+  margin-top: 2rem;
+}
+
+.forgot-password-section {
+  display: flex;
+  justify-content: end;
+}
+.forgot-password-section a {
+  margin-top: -1rem;
+}
+
+.forgot-pass {
+  text-decoration: none;
+  color: #fff;
+}
+
+.forgot-pass:hover {
+  text-decoration: underline;
+}
+#login-btn {
+  padding: 1rem;
+  width: 100%;
+  display: flex;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: all ease-in 0.2s;
+  margin-top: 1.5rem;
+  justify-content: center;
+  font-weight: 600;
+}
+#login-btn:hover {
+  background-color: #ffffffc0;
+}
+
+.register-section {
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.register-link {
+  color: #fff;
+  margin-left: 5px;
+  text-decoration: none;
+}
+.register-link:hover {
+  text-decoration: underline;
+}
+#remember-me {
+  accent-color: #ffffff44;
+}
+
+.fa-envelope,
+.fa-lock {
+  position: absolute;
+  color: #fff;
+}
+.fa-envelope {
+  top: 120px;
+  right: 20%;
+}
+
+.fa-lock {
+  top: 185px;
+  right: 20%;
+}
+
+
